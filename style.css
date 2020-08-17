@@ -45,23 +45,10 @@ header{
 
 }
 
-.placa{
-    color: black;
-    margin-top: 201px;
-    margin-left: 71px;
-
-    
-
-}
-
-
 .placaFundo{
     margin-top: 90px;
     height: 462px;
     width: 249px;
-
-    display: flex;
-    justify-content: center;
 
     background-image: url('Imagens/placa.png');
     background-size: cover;
@@ -74,8 +61,18 @@ header{
     font-family: 'Oswald', sans-serif;
 }
 
+.placa{
+    color: black;
+    margin-top: 201px;
+    margin-left: 71px;
+ 
+
+}
+
 .componetes{
     margin-top: 41px;
+    margin-left: 50px;
+    
 }
 
 footer{
