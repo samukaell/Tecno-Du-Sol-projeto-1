@@ -1,0 +1,78 @@
+body {
+    font-family: monospace;
+    color: white;
+
+    /*Plano de fundo*/
+    
+}
+
+header{
+    background-color: whitesmoke;
+    padding: 20px 0;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 200px;
+}
+
+.painel{
+
+    padding-top: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+    background-image: url('Imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.inputPadrao{
+
+    display: block;
+    margin-bottom: 17px;
+    padding: 5px 10px;
+
+
+}
+
+.placa{
+    color: black;
+    margin-top: 203px;
+    margin-left: 71px;
+}
+
+.placaFundo{
+    margin-top: 90px;
+    height: 462px;
+    width: 249px;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url('Imagens/placa.png');
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+
+footer{
+    text-align: center;
+}
+
+.copyright{
+    color: black;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+
