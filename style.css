@@ -62,7 +62,6 @@ header{
 }
 
 .placa{
-    color: black;
     margin-top: 201px;
     margin-left: 71px;
  
@@ -75,6 +74,50 @@ header{
     margin-left: 50px;
     
 }
+
+.controle{
+    position: absolute;
+    margin-left: 300px;
+
+    text-align: center;
+
+    background-image: url("Imagens/controle.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 388px;
+
+}
+
+
+.buttonClass{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+
+
+}
+
+.botoes{
+ margin-top: 35px;
+}
+
+.botoes li{
+    margin-bottom: 21px;
+}
+
+.volume{
+    margin-top: 50px;
+
+}
+
+.volume li{
+    margin-bottom: 42px;
+}
+
+
 
 footer{
     text-align: center;
