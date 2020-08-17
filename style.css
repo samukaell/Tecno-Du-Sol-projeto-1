@@ -1,5 +1,5 @@
 body {
-    font-family: monospace;
+    font-family: 'Oswald', sans-serif;
     color: white;
 
     /*Plano de fundo*/
@@ -36,19 +36,24 @@ header{
 }
 
 .inputPadrao{
-
+    font-family: 'Oswald', sans-serif;
     display: block;
     margin-bottom: 17px;
     padding: 5px 10px;
+
 
 
 }
 
 .placa{
     color: black;
-    margin-top: 203px;
+    margin-top: 201px;
     margin-left: 71px;
+
+    
+
 }
+
 
 .placaFundo{
     margin-top: 90px;
@@ -64,6 +69,14 @@ header{
     background-repeat: no-repeat
 }
 
+.infoPlaca{
+    margin-top: -55px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.componetes{
+    margin-top: 41px;
+}
 
 footer{
     text-align: center;
