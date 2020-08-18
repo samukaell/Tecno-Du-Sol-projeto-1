@@ -60,8 +60,11 @@ header{
 
 .infoPlaca{
     margin-top: -55px;
-
-
+    margin-left: -15px;
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 0;
 }
 
 .placa{
