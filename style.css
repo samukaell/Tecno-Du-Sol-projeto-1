@@ -75,7 +75,27 @@ header{
 .componetes{
     margin-top: 41px;
     margin-left: 50px;
-    
+
+    letter-spacing: 6px;
+    font-weight: 550;    
+}
+
+.caixaAtivo{
+    visibility: hidden;
+    position: absolute;
+    text-indent: -9999px;
+
+    width: 16px;
+    height: 26px;
+    margin-left: 6px;
+
+    border: 2px solid yellow;
+
+    box-sizing: border-box;
+}
+
+.ativo{
+    visibility: visible;
 }
 
 .controle{
@@ -95,7 +115,7 @@ header{
 
 
 .buttonClass{
-    background-color: Transparent;
+    background-color: transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
